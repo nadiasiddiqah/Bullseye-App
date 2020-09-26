@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		0998725E250C1FEC00CBDFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0998725D250C1FEC00CBDFEE /* Assets.xcassets */; };
 		09987261250C1FEC00CBDFEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09987260250C1FEC00CBDFEE /* Preview Assets.xcassets */; };
 		09987264250C1FEC00CBDFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09987262250C1FEC00CBDFEE /* LaunchScreen.storyboard */; };
+		099BBB40251BDF2300764D59 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BBB3F251BDF2300764D59 /* LottieView.swift */; };
+		099BBB48251BE1BA00764D59 /* Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 099BBB47251BE1BA00764D59 /* Confetti.json */; };
+		099BBB5A251C1AE100764D59 /* ConfettiLotti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BBB59251C1AE100764D59 /* ConfettiLotti.swift */; };
+		09FA4B77251AB07600A8205E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B76251AB07600A8205E /* AboutView.swift */; };
+		09FA4B98251B0EFA00A8205E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 09FA4B97251B0EFA00A8205E /* Podfile */; };
+		97CECD41F00333BB616F2F43 /* Pods_Bullseye_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0043CB0494FA68F81F52C67B /* Pods_Bullseye_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0043CB0494FA68F81F52C67B /* Pods_Bullseye_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bullseye_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09987254250C1FEB00CBDFEE /* Bullseye App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bullseye App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09987257250C1FEB00CBDFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09987259250C1FEB00CBDFEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		09987260250C1FEC00CBDFEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09987263250C1FEC00CBDFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09987265250C1FEC00CBDFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099BBB3F251BDF2300764D59 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		099BBB47251BE1BA00764D59 /* Confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti.json; sourceTree = "<group>"; };
+		099BBB59251C1AE100764D59 /* ConfettiLotti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLotti.swift; sourceTree = "<group>"; };
+		09FA4B76251AB07600A8205E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		09FA4B97251B0EFA00A8205E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		496F9857ABEAFB09D5F0B94C /* Pods-Bullseye App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bullseye App.debug.xcconfig"; path = "Target Support Files/Pods-Bullseye App/Pods-Bullseye App.debug.xcconfig"; sourceTree = "<group>"; };
+		57368842632968A0B6E0E68E /* Pods-Bullseye App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bullseye App.release.xcconfig"; path = "Target Support Files/Pods-Bullseye App/Pods-Bullseye App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CECD41F00333BB616F2F43 /* Pods_Bullseye_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +55,12 @@
 		0998724B250C1FEB00CBDFEE = {
 			isa = PBXGroup;
 			children = (
+				09FA4B97251B0EFA00A8205E /* Podfile */,
 				09987256250C1FEB00CBDFEE /* Bullseye App */,
+				099BBB46251BE1BA00764D59 /* LottieAnimations */,
 				09987255250C1FEB00CBDFEE /* Products */,
+				0FA425BFF3EACE974D5AD28E /* Pods */,
+				6B07714D987F5A2A33609FF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +78,9 @@
 				09987257250C1FEB00CBDFEE /* AppDelegate.swift */,
 				09987259250C1FEB00CBDFEE /* SceneDelegate.swift */,
 				0998725B250C1FEB00CBDFEE /* ContentView.swift */,
+				09FA4B76251AB07600A8205E /* AboutView.swift */,
+				099BBB3F251BDF2300764D59 /* LottieView.swift */,
+				099BBB59251C1AE100764D59 /* ConfettiLotti.swift */,
 				0998725D250C1FEC00CBDFEE /* Assets.xcassets */,
 				09987262250C1FEC00CBDFEE /* LaunchScreen.storyboard */,
 				09987265250C1FEC00CBDFEE /* Info.plist */,
@@ -75,6 +97,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		099BBB46251BE1BA00764D59 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				099BBB47251BE1BA00764D59 /* Confetti.json */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		0FA425BFF3EACE974D5AD28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				496F9857ABEAFB09D5F0B94C /* Pods-Bullseye App.debug.xcconfig */,
+				57368842632968A0B6E0E68E /* Pods-Bullseye App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B07714D987F5A2A33609FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0043CB0494FA68F81F52C67B /* Pods_Bullseye_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09987268250C1FEC00CBDFEE /* Build configuration list for PBXNativeTarget "Bullseye App" */;
 			buildPhases = (
+				FB3448D89AEFF20BD17AF152 /* [CP] Check Pods Manifest.lock */,
 				09987250250C1FEB00CBDFEE /* Sources */,
 				09987251250C1FEB00CBDFEE /* Frameworks */,
 				09987252250C1FEB00CBDFEE /* Resources */,
+				8C40D9A3A2C1A71D3FA42BD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,7 +151,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Nadia Siddiqah";
 				TargetAttributes = {
 					09987253250C1FEB00CBDFEE = {
@@ -135,20 +184,67 @@
 			files = (
 				09987264250C1FEC00CBDFEE /* LaunchScreen.storyboard in Resources */,
 				09987261250C1FEC00CBDFEE /* Preview Assets.xcassets in Resources */,
+				09FA4B98251B0EFA00A8205E /* Podfile in Resources */,
 				0998725E250C1FEC00CBDFEE /* Assets.xcassets in Resources */,
+				099BBB48251BE1BA00764D59 /* Confetti.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C40D9A3A2C1A71D3FA42BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bullseye App/Pods-Bullseye App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bullseye App/Pods-Bullseye App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bullseye App/Pods-Bullseye App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3448D89AEFF20BD17AF152 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bullseye App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09987250250C1FEB00CBDFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FA4B77251AB07600A8205E /* AboutView.swift in Sources */,
 				09987258250C1FEB00CBDFEE /* AppDelegate.swift in Sources */,
+				099BBB40251BDF2300764D59 /* LottieView.swift in Sources */,
 				0998725A250C1FEB00CBDFEE /* SceneDelegate.swift in Sources */,
 				0998725C250C1FEB00CBDFEE /* ContentView.swift in Sources */,
+				099BBB5A251C1AE100764D59 /* ConfettiLotti.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +288,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +349,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,9 +380,11 @@
 		};
 		09987269250C1FEC00CBDFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496F9857ABEAFB09D5F0B94C /* Pods-Bullseye App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye App/Preview Content\"";
 				DEVELOPMENT_TEAM = C5GN2KM3ZR;
 				ENABLE_PREVIEWS = YES;
@@ -302,9 +402,11 @@
 		};
 		0998726A250C1FEC00CBDFEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57368842632968A0B6E0E68E /* Pods-Bullseye App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye App/Preview Content\"";
 				DEVELOPMENT_TEAM = C5GN2KM3ZR;
 				ENABLE_PREVIEWS = YES;
